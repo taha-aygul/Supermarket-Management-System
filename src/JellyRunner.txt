@@ -1,0 +1,31 @@
+x	GÖLGE IŞIKLANDIRMA
+	MATERYALLER RENKLERI DUZENE // LEVEL SONU KALDI
+x	LEVELI PREFAB YAP
+x	GAME MANAGERI DA PREFABA KOYABILIRSIN
+x	LAV -- HAREKETLİ VE PARTICLE LI
+x	RUZGAR ALANLARINI YAP
+x	YERLER ÇİZGİLİ
+x	SINGLETONLAR YUKARI
+x	PARALAR
+	BOYALAR *  Çarpma Efektleri
+x	BLOB DUVARA DEĞDIĞINDE ÇIKAMIYOR
+x	BLOB ANİMASYONLARI EKLE
+x	DUVAR EKLE
+x	DUVARLAR KIRILABILSIN
+x	KODLARA AÇIKLAMALARI YAZ
+x	TÜRKÇE İSİMLENDİRMELERİ SİL
+x	KENARLARDAKI KUPLERI YAPABILIRSIN
+X	LEVEL SONU EKRANI
+	INPUT SISTEMINI DUZENLE
+	INPUT
+	INPUT
+	RUZGAR KUCUK KARŞI KOYAMAZ
+	Buyuk blob hareket edemez
+
+         /*float moveX = inputDirection * currentSideMovementSpeed + oldPosition.x;
+         // print("moveX         : " + moveX);
+         moveX = Mathf.Clamp(moveX, sideDistance.x, sideDistance.y);
+         //print("moveX Clamped : " + moveX);
+         // print(inputDirection +  " " + oldPosition +"   " +  (oldPosition.x + (inputDirection * currentSideMovementSpeed)));
+         blobRb.MovePosition(new Vector3(moveX, transform.position.y, transform.position.z));//          oldPosition + new Vector3(inputDirection * currentSideMovementSpeed, 0, 0) * Time.deltaTime);
+         */
